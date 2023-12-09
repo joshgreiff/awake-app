@@ -31,7 +31,6 @@ body {
   color: var(--primary);
   line-height: 1.5;
   font-size: 16px;
-  background-image: url('../images/header-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: color;
@@ -836,7 +835,6 @@ select {
 }
 
 .bg-image {
-  background-image: url('../images/header-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;

@@ -40,7 +40,7 @@ const handlePizzaSubmit = event => {
   event.preventDefault();
 
   const questName = $pizzaForm.querySelector('#pizza-name').value;
-  // const createdBy = $pizzaForm.querySelector('#created-by').value;
+  const createdBy = $pizzaForm.querySelector('#created-by').value;
   // const size = $pizzaForm.querySelector('#pizza-size').value;
   // const toppings = [...$pizzaForm.querySelectorAll('[name=topping]:checked')].map(topping => {
   //   return topping.value;
@@ -50,7 +50,7 @@ const handlePizzaSubmit = event => {
   //   return;
   // }
 
-  const formData = { questName, 
+  const formData = { questName, createdBy
     // createdBy, size, toppings 
   };
 
