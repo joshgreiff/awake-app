@@ -17,4 +17,8 @@ router.get('/pizza', (req, res) => {
   res.sendFile(path.join(__dirname, '../../public/pizza.html'));
 });
 
+router.get('/register', (req, res) => {
+  res.sendFile(path.join(__dirname, '../../public/register.html'));
+});
+
 module.exports = router;
